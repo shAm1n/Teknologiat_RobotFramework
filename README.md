@@ -35,11 +35,11 @@ kertoo hyvin selkeästi syyn testin epäonnistumiselle, sen perusteella ja tiedo
 Toiminnan kohteen osoittavan xpath-polun määrittely oli kuitenkin haastavaa. Sain tähän vinkin tutulta, joka työskentelee
 Robot Frameworkin kanssa. Hän neuvoi hakemaan polun selaimesta valitsemalla Inspect haettavan elementin kohdalla:
 
-![](./Images/Screenshot 2022-11-30 121731.png)
+![](./Images/xpath1.png)
 
 Tarvittavan xpath-polun saa kopioitua itselleen valitsemalla Inspect-ikkunasta halutun elementin:
 
-![](./Images/Screenshot 2022-11-30 121905.png)
+![](./Images/xpath2.png)
 
 Xpath-polun voi myös määrittää halutusta elementistä löytyvän nimen, arvon, id:n tai tekstin perusteella. Päädyin itse
 käyttämään pääasiassa tätä menetelmää. Esimerkiksi ko. Reseptikirja-navigaatiolinkin voisi määrittää:
@@ -57,10 +57,10 @@ tulokset niin terminaalissa kuin luo testikansioon results-kansion, josta löyty
 log.html ja output.xml, jotka voi avata selaimessa tutkittavaksi.
 
 Report.html:
-![](./Images/Screenshot 2022-11-30 120435.png)
+![](./Images/result.png)
 
 Log.html:
-![](./Images/Screenshot 2022-11-30 120655.png)
+![](./Images/log.png)
 
 #### Projektirakenne
 Lopuksi halusin vielä siistiä projektirakennetta, joten loin yleisesti käytetyn kansiorakenteen: Tests, Variables, 
