@@ -1,6 +1,6 @@
-#Robot Framework
+# Robot Framework
 *Projektin tavoitteena on oppia Robot Frameworkin perusteet.*
-###Robot Framework lyhyesti
+### Robot Framework lyhyesti
 Robot Framework on geneerinen testiautomaatiokehys hyväksymistestaukseen. Robot Frameworkin käyttämä kieli on Python,
 mutta sitä voi käyttää myös muilla ohjelmointikielillä. Robot Framework on käyttöjärjestelmästä ja editorista 
 riippumaton. Editorina itse käytin PyCharmia. Robot Framework hyödyntää helppolukuisia avainsanoja testauksessa. 
@@ -8,7 +8,7 @@ Tarvittavia avainsanoja voi saada käyttöön asentamalla sopivat lukuisista saa
 Yrityksillä, jotka käyttävät Robot Frameworkia, on yleensä niiden tarpeisiin omat kattavat kirjastot. Avainsanoja voi 
 myös rakentaa itse. SeleniumLibrary on hyvin yleisesti käytetty ulkoinen avainsanakirjasto.
 
-####Käytetyt kirjastot
+#### Käytetyt kirjastot
 * Selenium Library
 * BuiltIn Library (sisältyy Robot Framework asennukseen)
 * React Library
