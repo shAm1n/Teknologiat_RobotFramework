@@ -35,7 +35,7 @@ kertoo hyvin selkeästi syyn testin epäonnistumiselle, sen perusteella ja tiedo
 Toiminnan kohteen osoittavan xpath-polun määrittely oli kuitenkin haastavaa. Sain tähän vinkin tutulta, joka työskentelee
 Robot Frameworkin kanssa. Hän neuvoi hakemaan polun selaimesta valitsemalla Inspect haettavan elementin kohdalla:
 
-![](Images/Screenshot 2022-11-30 121731.png)
+![](./Images/Screenshot 2022-11-30 121731.png)
 
 Tarvittavan xpath-polun saa kopioitua itselleen valitsemalla Inspect-ikkunasta halutun elementin:
 
