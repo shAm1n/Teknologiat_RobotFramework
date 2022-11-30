@@ -18,7 +18,7 @@ ja muuttujien nimeämisessä tärkeää on kuvaavuus, yksiselitteisyys ja johdon
 ja salasanat, suositellaan tallentamaan muuttujiin. Testitapauksen sisällä tulisi tehdä vain kyseiseen testiin liittyviä 
 tarkistuksia eikä eri testien välillä kannata olla sidonnaisuuksia.
 
-##Projektin tavoite ja perusta
+## Projektin tavoite ja perusta
 Robot Framework-osaaminen on erittäin haettua työelämässä ja uskon sen olevan hyödyllistä tulevalle uralleni. Projektin 
 tavoite on saada perusymmärrys Robot Frameworkin toiminnasta ja käytöstä. Ennen Robot Frameworkiin tutustumista olin 
 suunnitellut testaavani ohjelmistoprojekti 2-työtämme ja siinä tarkemmin tietokantamme toimintaa. Kävin läpi Robot 
@@ -29,7 +29,7 @@ hyödynsin myös Docker-tehtävässä. Lopputyöni on 'Reseptikirja', joka on to
 tallentaa reseptejä, aineksia ja kategorioita, hakea reseptejä kategorian perusteella sekä toki nähdä kaikki reseptit. 
 Päätin ottaa testitapauksiksi reseptin sekä aineksen lisäyksen ja reseptin haun kategorian perusteella.
 
-###Projektin haasteet ja ratkaisut
+### Projektin haasteet ja ratkaisut
 Projektin pohjan eli testin asetusten, testitapausten, avainsanojen ja muuttujien tekeminen onnistui hyvin. Terminaali
 kertoo hyvin selkeästi syyn testin epäonnistumiselle, sen perusteella ja tiedonhaulla sain ongelmat ratkaistua.
 Toiminnan kohteen osoittavan xpath-polun määrittely oli kuitenkin haastavaa. Sain tähän vinkin tutulta, joka työskentelee
@@ -49,8 +49,8 @@ Esimerkiksi nimen perusteella kohdepolun voisi määrittää: ```xpath://input[@
 
 Testien ajo tapahtuu terminaalissa: ```robot -d results tiedoston_nimi.robot```
 
-##Projektin tulokset
-####Testitulokset
+## Projektin tulokset
+#### Testitulokset
 
 Sain toteutettua kaikki testitapaukset niin, että ne menivät läpi. Testin ajamisen jälkeen Robot Framework näyttää 
 tulokset niin terminaalissa kuin luo testikansioon results-kansion, josta löytyy tulokset tiedostoina report.html, 
@@ -62,7 +62,7 @@ Report.html:
 Log.html:
 ![](./Images/Screenshot 2022-11-30 120655.png)
 
-####Projektirakenne
+#### Projektirakenne
 Lopuksi halusin vielä siistiä projektirakennetta, joten loin yleisesti käytetyn kansiorakenteen: Tests, Variables, 
 Resources ja Library. Tests-kansioon laitetaan tiedostot, joissa määritellään ```***Settings***``` ja ```***Test Cases***```.
 Näihin tiedostoihin importoidaan niiden tarvitsemat Resources-kansion tiedostot Settings alla
