@@ -35,8 +35,8 @@ Choose Reseptihaku
     Click Element    xpath://span[contains(text(), '${recipe_search_path}')]
 
 Press "Aamiainen" Button
-    Wait Until Page Contains Element    xpath://h5[contains(text(), '${recipe_category}')]
-    Click Element    xpath://h5[contains(text(), '${recipe_category}')]
+    Wait Until Page Contains Element    xpath://*[@id="root"]/div[2]/ul/a[1]/div/div/div/h5
+    Click Element    xpath://*[@id="root"]/div[2]/ul/a[1]/div/div/div/h5
 
 Check If The Recipe Matches The Category
     Wait Until Page Contains Element    xpath://span[contains(text(), '${card_description}')]

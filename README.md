@@ -71,3 +71,8 @@ tarvitsemat ```***Settings***``` sekä ```***Keywords***```. Näihin tiedostoihi
 Variables-kansion tiedostot samoin kuin edellä. Variables-kansiossa on tiedostot, joissa määritellään ```Variables```.
 Näin testiä on helpompi ylläpitää ja myös muiden käyttäjien on helpompi ymmärtää rakennetta ja löytää tarvittavat tiedostot.
 Tapauksessa, jossa olisi itse luotuja avainsanoja, ne laitettaisiin Library-kansioon.
+
+####Projektin ajo
+Testattava lopputyö löytyy Githubistani julkisena, sen voi halutessaan kloonata: https://github.com/shAm1n/Reseptikirja.git.
+Lopputyön ajo tapahtuu navigoimalla projektin kansioon tyoBack ja terminaalissa komennolla node .\reseptiServer.js. Kun
+tietokanta on käynnissä, toisessa terminaalissa käynnistetään projekti npm start. Tämän jälkeen testitapaukset on mahdollista ajaa.
